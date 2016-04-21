@@ -5,8 +5,9 @@
 }
 
 .main {
-  width: 70%;
-  margin: 5% 2%;
+  border: 1px solid blue;
+  width: 60%;
+  // margin: 0 2%;
   color: white;
   float: right;
 
@@ -37,7 +38,10 @@
 }
 }
 .sidebar {
-  width: 20%;
+  margin: 5% 15%;
+  height: 2265px;
+  border: 1px solid red;
+  width: 25%;
   span {
     color: #A2A0A3;
   }

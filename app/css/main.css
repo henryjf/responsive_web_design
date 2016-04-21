@@ -4,8 +4,8 @@
   font-family: 'Lato', sans-serif; }
 
 .main {
-  width: 70%;
-  margin: 5% 2%;
+  border: 1px solid blue;
+  width: 60%;
   color: white;
   float: right; }
   .main h2 {
@@ -29,7 +29,10 @@
     margin-bottom: 2%; }
 
 .sidebar {
-  width: 20%; }
+  margin: 5% 15%;
+  height: 2265px;
+  border: 1px solid red;
+  width: 25%; }
   .sidebar span {
     color: #A2A0A3; }
 
