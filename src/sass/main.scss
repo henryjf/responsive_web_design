@@ -6,10 +6,10 @@
 
 .main {
   border: 1px solid blue;
-  width: 60%;
+  width: 100%;
   // margin: 0 2%;
   color: white;
-  float: right;
+  // float: right;
 
   h2 {
     padding-bottom: 12px;
@@ -20,32 +20,98 @@
     letter-spacing: 0.1em;
     font-weight: 100;
   }
-.section1 {
-  width: 80%;
+
+  .section1{
+    // width: 80%;
+    // float: right;
+    display: inline-block;
+    border: 1px solid red;
+    .side1{
+      width: 20%;
+      border: 1px solid red;
+    }
+  }
+    .section2{
+      // width: 80%;
+      // float: right;
+      display: inline-block;
+      border: 1px solid red;
+      .side2{
+        width: 20%;
+        border: 1px solid red;
+      }
+  }
+  .section3{
+    // width: 80%;
+    // float: right;
+    display: inline-block;
+    border: 1px solid red;
+    .side1{
+      width: 20%;
+      border: 1px solid red;
+    }
+}
+.section4{
+  // width: 80%;
+  // float: right;
+  display: inline-block;
+  border: 1px solid red;
+  .side2{
+    width: 20%;
+    border: 1px solid red;
+  }
+}
+.section5{
+  // width: 80%;
+  // float: right;
+  display: inline-block;
+  border: 1px solid red;
+  .side1{
+    width: 20%;
+    border: 1px solid red;
+  }
+}
+.section6{
+  // width: 80%;
+  // float: right;
+  display: inline-block;
+  border: 1px solid red;
+  .side2{
+    width: 20%;
+    border: 1px solid red;
+  }
+}
+.section7{
+  // width: 80%;
+  // float: right;
+  display: inline-block;
+  border: 1px solid red;
+  .side1{
+    width: 20%;
+    border: 1px solid red;
+  }
+}
+.text1 {
+  width: 60%;
   background-color: #4DA852;
   border-radius: 5px;
   padding: 3% 5%;
   margin-bottom: 2%;
+  float: right;
 
 }
 
-.section2 {
-  width: 80%;
+.text2 {
+  width: 60%;
   background-color: #2F6531;
   border-radius: 5px;
   padding: 3% 5%;
   margin-bottom: 2%;
+  float: right;
 }
-}
-.sidebar {
-  margin: 5% 15%;
-  height: 2265px;
-  border: 1px solid red;
-  width: 25%;
   span {
     color: #A2A0A3;
   }
-}
 .side1 {
 aside {
     color: #4DA852;
@@ -57,4 +123,6 @@ aside {
     color: #2F6531;
     font-size: 3em;
   }
+}
+
 }

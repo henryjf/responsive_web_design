@@ -5,9 +5,8 @@
 
 .main {
   border: 1px solid blue;
-  width: 60%;
-  color: white;
-  float: right; }
+  width: 100%;
+  color: white; }
   .main h2 {
     padding-bottom: 12px;
     border-bottom: 1px solid white; }
@@ -16,32 +15,68 @@
     letter-spacing: 0.1em;
     font-weight: 100; }
   .main .section1 {
-    width: 80%;
+    display: inline-block;
+    border: 1px solid red; }
+    .main .section1 .side1 {
+      width: 20%;
+      border: 1px solid red; }
+  .main .section2 {
+    display: inline-block;
+    border: 1px solid red; }
+    .main .section2 .side2 {
+      width: 20%;
+      border: 1px solid red; }
+  .main .section3 {
+    display: inline-block;
+    border: 1px solid red; }
+    .main .section3 .side1 {
+      width: 20%;
+      border: 1px solid red; }
+  .main .section4 {
+    display: inline-block;
+    border: 1px solid red; }
+    .main .section4 .side2 {
+      width: 20%;
+      border: 1px solid red; }
+  .main .section5 {
+    display: inline-block;
+    border: 1px solid red; }
+    .main .section5 .side1 {
+      width: 20%;
+      border: 1px solid red; }
+  .main .section6 {
+    display: inline-block;
+    border: 1px solid red; }
+    .main .section6 .side2 {
+      width: 20%;
+      border: 1px solid red; }
+  .main .section7 {
+    display: inline-block;
+    border: 1px solid red; }
+    .main .section7 .side1 {
+      width: 20%;
+      border: 1px solid red; }
+  .main .text1 {
+    width: 60%;
     background-color: #4DA852;
     border-radius: 5px;
     padding: 3% 5%;
-    margin-bottom: 2%; }
-  .main .section2 {
-    width: 80%;
+    margin-bottom: 2%;
+    float: right; }
+  .main .text2 {
+    width: 60%;
     background-color: #2F6531;
     border-radius: 5px;
     padding: 3% 5%;
-    margin-bottom: 2%; }
-
-.sidebar {
-  margin: 5% 15%;
-  height: 2265px;
-  border: 1px solid red;
-  width: 25%; }
-  .sidebar span {
+    margin-bottom: 2%;
+    float: right; }
+  .main span {
     color: #A2A0A3; }
-
-.side1 aside {
-  color: #4DA852;
-  font-size: 3em; }
-
-.side2 aside {
-  color: #2F6531;
-  font-size: 3em; }
+  .main .side1 aside {
+    color: #4DA852;
+    font-size: 3em; }
+  .main .side2 aside {
+    color: #2F6531;
+    font-size: 3em; }
 
 /*# sourceMappingURL=main.css.map */
