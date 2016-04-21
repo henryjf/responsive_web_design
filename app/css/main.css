@@ -1,2 +1,44 @@
+.container {
+  width: 100%;
+  margin: auto;
+  font-family: 'Lato', sans-serif; }
+
+.main {
+  width: 70%;
+  margin: 5% 2%;
+  color: white;
+  float: right; }
+  .main h2 {
+    padding-bottom: 12px;
+    border-bottom: 1px solid white; }
+  .main p {
+    font-size: 1.25em;
+    letter-spacing: 0.1em;
+    font-weight: 100; }
+  .main .section1 {
+    width: 80%;
+    background-color: #4DA852;
+    border-radius: 5px;
+    padding: 3% 5%;
+    margin-bottom: 2%; }
+  .main .section2 {
+    width: 80%;
+    background-color: #2F6531;
+    border-radius: 5px;
+    padding: 3% 5%;
+    margin-bottom: 2%; }
+
+.sidebar {
+  width: 20%; }
+  .sidebar span {
+    color: #A2A0A3; }
+
+.side1 aside {
+  color: #4DA852;
+  font-size: 3em; }
+
+.side2 aside {
+  color: #2F6531;
+  font-size: 3em; }
 
 /*# sourceMappingURL=main.css.map */
