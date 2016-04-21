@@ -4,7 +4,6 @@
   font-family: 'Lato', sans-serif; }
 
 .main {
-  border: 1px solid blue;
   width: 100%;
   color: white; }
   .main h2 {
@@ -18,43 +17,50 @@
     display: inline-block;
     border: 1px solid red; }
     .main .section1 .side1 {
-      width: 20%;
+      text-align: right;
+      width: 30%;
       border: 1px solid red; }
   .main .section2 {
     display: inline-block;
     border: 1px solid red; }
     .main .section2 .side2 {
-      width: 20%;
+      text-align: right;
+      width: 30%;
       border: 1px solid red; }
   .main .section3 {
     display: inline-block;
     border: 1px solid red; }
     .main .section3 .side1 {
-      width: 20%;
+      text-align: right;
+      width: 30%;
       border: 1px solid red; }
   .main .section4 {
     display: inline-block;
     border: 1px solid red; }
     .main .section4 .side2 {
-      width: 20%;
+      text-align: right;
+      width: 30%;
       border: 1px solid red; }
   .main .section5 {
     display: inline-block;
     border: 1px solid red; }
     .main .section5 .side1 {
-      width: 20%;
+      text-align: right;
+      width: 30%;
       border: 1px solid red; }
   .main .section6 {
     display: inline-block;
     border: 1px solid red; }
     .main .section6 .side2 {
-      width: 20%;
+      text-align: right;
+      width: 30%;
       border: 1px solid red; }
   .main .section7 {
     display: inline-block;
     border: 1px solid red; }
     .main .section7 .side1 {
-      width: 20%;
+      text-align: right;
+      width: 30%;
       border: 1px solid red; }
   .main .text1 {
     width: 60%;
