@@ -1,21 +1,26 @@
 .container {
   max-width: 1100px;
   margin: auto;
-  font-family: 'Lato', sans-serif;
-  position: relative; }
+  font-family: 'Lato', sans-serif; }
 
 #timeline {
   width: 100%;
-  overflow: auto; }
+  overflow: auto;
+  position: relative; }
   #timeline::after {
     width: 5px;
     height: 100%;
     background-color: #7AC27E;
     position: absolute;
-    top: 0;
+    top: 22px;
     left: 275px;
     content: " ";
     z-index: 1; }
+
+.section1 {
+  margin: 2%;
+  border: 1px solid red;
+  display: inline-block; }
 
 .text1 {
   color: white;
@@ -40,11 +45,13 @@
 .icon {
   border: 1px solid red;
   border-radius: 25px;
-  padding: 5px 5px 0px 4px;
+  padding: 0px 10px 0px 10px;
   position: absolute;
-  top: 15px;
-  left: 268px;
+  top: 28px;
+  left: 259px;
   z-index: 2;
-  width: 15px; }
+  font-size: 30px;
+  color: white;
+  background-color: #4DA852; }
 
 /*# sourceMappingURL=main.css.map */
