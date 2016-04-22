@@ -43,15 +43,25 @@
     font-size: 3em; }
 
 .icon {
-  border: 1px solid red;
+  border: 1px solid #5DB862;
   border-radius: 25px;
-  padding: 0px 10px 0px 10px;
+  padding: 0px 12px 0px 12px;
   position: absolute;
-  top: 28px;
-  left: 259px;
-  z-index: 2;
-  font-size: 30px;
+  top: 5px;
+  left: 6px;
+  z-index: 3;
+  font-size: 32px;
   color: white;
-  background-color: #4DA852; }
+  background-color: #5DB862; }
+
+.outerCircle {
+  border: 1px solid #2F6531;
+  padding: 26px;
+  border-radius: 25px;
+  position: absolute;
+  top: 23px;
+  left: 251px;
+  z-index: 2;
+  background-color: #2F6531; }
 
 /*# sourceMappingURL=main.css.map */
