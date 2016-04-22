@@ -7,12 +7,12 @@
 #timeline {
   margin: 5%; }
 
-.section1 {
+.section1, .section2 {
   margin: 2%;
   border: 1px solid red;
   display: inline-block; }
 
-.text1 {
+.text1, .text2 {
   color: white;
   background-color: #4DA852;
   border-radius: 5px;
@@ -20,13 +20,16 @@
   margin-bottom: 2%;
   margin-top: 5%; }
 
-.date1 {
+.text2 {
+  background-color: #1F4220; }
+
+.date1, .date2 {
   text-align: right;
   width: 10%;
   border: 1px solid red; }
-  .date1 span {
+  .date1 span, .date2 span {
     color: #A2A0A3; }
-  .date1 aside {
+  .date1 aside, .date2 aside {
     color: #4DA852;
     font-size: 1.5em; }
 
@@ -78,7 +81,7 @@
     margin: 2%;
     border: 1px solid red;
     display: inline-block; }
-  .text1 {
+  .text1, .text2 {
     color: white;
     width: 60%;
     background-color: #4DA852;
@@ -87,16 +90,18 @@
     margin-bottom: 2%;
     margin-top: 0;
     float: right; }
-  .date1 {
+  .text2 {
+    background-color: #1F4220; }
+  .date1, .date2 {
     text-align: right;
     width: 20%;
     border: 1px solid red; }
-    .date1 span {
+    .date1 span, .date2 span {
       color: #A2A0A3; }
-    .date1 aside {
+    .date1 aside, .date2 aside {
       color: #4DA852;
       font-size: 3em; }
-  .icon {
+  .circles1 .icon {
     border: 1px solid #2F6531;
     border-radius: 25px;
     padding: 0px 12px 0px 12px;
@@ -107,12 +112,32 @@
     font-size: 32px;
     color: white;
     background-color: #2F6531; }
-  .outerCircle {
+  .circles1 .outerCircle {
     border: 1px solid #5DB862;
     padding: 26px 4px 26px 24px;
     border-radius: 25px;
     position: absolute;
-    top: 23px;
+    top: 83px;
+    left: 232px;
+    z-index: 2;
+    background-color: #5DB862; }
+  .circles2 .icon {
+    border: 1px solid #2F6531;
+    border-radius: 25px;
+    padding: 0px 12px 0px 12px;
+    position: absolute;
+    top: 5px;
+    left: 6px;
+    z-index: 3;
+    font-size: 25px;
+    color: white;
+    background-color: #2F6531; }
+  .circles2 .outerCircle {
+    border: 1px solid #5DB862;
+    padding: 26px 4px 26px 24px;
+    border-radius: 25px;
+    position: absolute;
+    top: 423px;
     left: 232px;
     z-index: 2;
     background-color: #5DB862; } }

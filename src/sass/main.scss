@@ -9,13 +9,13 @@
 }
 
 
-.section1 {
+.section1 ,.section2{
   margin: 2%;
   border: 1px solid red;
   display: inline-block;
 }
 
-  .text1 {
+  .text1, .text2 {
 
     color: white;
     background-color: #4DA852;
@@ -24,8 +24,12 @@
     margin-bottom: 2%;
     margin-top: 5%;
   }
+  .text2{
+    background-color: #1F4220;
 
-  .date1{
+  }
+
+  .date1, .date2{
     text-align: right;
     width: 10%;
     border: 1px solid red;
@@ -225,7 +229,7 @@
     display: inline-block;
   }
 
-  .text1 {
+  .text1, .text2 {
     color: white;
     width: 60%;
     background-color: #4DA852;
@@ -236,7 +240,12 @@
     float: right;
   }
 
-  .date1{
+  .text2 {
+    background-color: #1F4220;
+  }
+
+
+  .date1, .date2{
     text-align: right;
     width: 20%;
     border: 1px solid red;
@@ -249,6 +258,7 @@
       font-size: 3em;
     }
   }
+  .circles1{
   .icon {
     border: 1px solid #2F6531;
     border-radius: 25px;
@@ -270,11 +280,39 @@
     padding: 26px 4px 26px 24px;
     border-radius: 25px;
     position: absolute;
-    top: 23px;
+    top: 83px;
     left: 232px;
     z-index: 2;
     background-color: #5DB862;
-
   }
+}
+.circles2{
+.icon {
+  border: 1px solid #2F6531;
+  border-radius: 25px;
+  padding: 0px 12px 0px 12px;
+  position: absolute;
+  top: 5px;
+  left: 6px;
+  z-index: 3;
+  font-size: 25px;
+  color: white;
+  background-color: #2F6531;
+
+  // .fa fa-mobile {
+  //
+  // }
+}
+.outerCircle {
+  border: 1px solid #5DB862;
+  padding: 26px 4px 26px 24px;
+  border-radius: 25px;
+  position: absolute;
+  top: 423px;
+  left: 232px;
+  z-index: 2;
+  background-color: #5DB862;
+}
+}
 //
 }
