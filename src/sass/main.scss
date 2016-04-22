@@ -22,10 +22,10 @@
     border-radius: 5px;
     padding: 3% 5%;
     margin-bottom: 2%;
-    margin-top: 15%;
+    margin-top: 5%;
   }
 
-  .side1{
+  .date1{
     text-align: right;
     width: 10%;
     border: 1px solid red;
@@ -39,7 +39,7 @@
         }
   }
   .icon {
-    border: 1px solid #5DB862;
+    border: 1px solid #2F6531;
     border-radius: 25px;
     padding: 0px 12px 0px 12px;
     position: absolute;
@@ -48,21 +48,21 @@
     z-index: 3;
     font-size: 32px;
     color: white;
-    background-color: #5DB862;
+    background-color: #2F6531;
 
 }
 .outerCircle {
   margin: 2%;
   width: 25px;
-  border: 1px solid #2F6531;
-  padding: 26px;
+  border: 1px solid #5DB862;
+  padding: 25px 4px 28px 24px;
   border-radius: 25px;
   position: absolute;
   top: 5px;
-  right: 6px;
+  right: 25px;
 
   z-index: 2;
-  background-color:#2F6531;
+  background-color:#5DB862;
 
 }
 
@@ -236,7 +236,7 @@
     float: right;
   }
 
-  .side1{
+  .date1{
     text-align: right;
     width: 20%;
     border: 1px solid red;
@@ -250,7 +250,7 @@
     }
   }
   .icon {
-    border: 1px solid #5DB862;
+    border: 1px solid #2F6531;
     border-radius: 25px;
     padding: 0px 12px 0px 12px;
     position: absolute;
@@ -259,21 +259,21 @@
     z-index: 3;
     font-size: 32px;
     color: white;
-    background-color: #5DB862;
+    background-color: #2F6531;
 
     .fa fa-mobile {
 
     }
   }
   .outerCircle {
-    border: 1px solid #2F6531;
-    padding: 26px;
+    border: 1px solid #5DB862;
+    padding: 26px 4px 26px 24px;
     border-radius: 25px;
     position: absolute;
     top: 23px;
-    left: 251px;
+    left: 232px;
     z-index: 2;
-    background-color:#2F6531;
+    background-color: #5DB862;
 
   }
 //
